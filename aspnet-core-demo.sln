@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "001.WebApi-Demo", "001.WebApi-Demo", "{6C289E10-9F97-476E-A3A7-3792F73B97D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi-Demo", "WebApi-Demo\WebApi-Demo.csproj", "{56764365-32B9-4468-8376-5B086F74277E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56764365-32B9-4468-8376-5B086F74277E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56764365-32B9-4468-8376-5B086F74277E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56764365-32B9-4468-8376-5B086F74277E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56764365-32B9-4468-8376-5B086F74277E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56764365-32B9-4468-8376-5B086F74277E} = {6C289E10-9F97-476E-A3A7-3792F73B97D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9667625D-051A-4747-A5C5-3AA9007CF39B}
